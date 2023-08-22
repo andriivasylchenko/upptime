@@ -42,6 +42,7 @@ sites:
     url: https://www.ibm.com/community/z
     icon: https://www.ibm.com/favicon.ico
     # __dangerous__body_down_if_text_missing: 'Join the new IBM Z and LinuxONE Community'
+    __dangerous__body_down_if_text_missing: 'IBM Z and LinuxONE Community'
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
