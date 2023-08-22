@@ -41,7 +41,7 @@ sites:
     url: https://www.ibm.com/community/z-and-cloud/ja/
     icon: https://www.ibm.com/favicon.ico
     # __dangerous__body_down_if_text_missing: 'IBMエキスパートにコンタクト'
-    __dangerous__body_down: 'wp-json'
+    __dangerous__body_down: 'This test string definitely does not exist wp-json'
   - name: Z Community (WP) Home page
     url: https://www.ibm.com/community/z
     icon: https://www.ibm.com/favicon.ico
