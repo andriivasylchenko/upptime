@@ -30,9 +30,9 @@ sites:
       - "Authorization: Basic $SECRET_MIDDLEWARE_AGGREGATION_API"
       - "Content-Type: application/json"
     body: '{ "tag": "IBM Z", "limit": 1 }'
-    __dangerous__body_down_if_text_missing: 'Blogs":[{' # need to confirm the content
+    # __dangerous__body_down_if_text_missing: 'Blogs":[{' # need to confirm the content
     expectedStatusCodes:
-      - Unauthorized401
+      - 401
   - name: T90 (WP) Home page
     url: https://www.ibm.com/community/z-and-cloud/
     icon: https://www.ibm.com/favicon.ico
@@ -41,7 +41,6 @@ sites:
     url: https://www.ibm.com/community/z-and-cloud/ja/
     icon: https://www.ibm.com/favicon.ico
     __dangerous__body_down_if_text_missing: 'IBMエキスパートにコンタクト'
-    __dangerous__body_down: 'This test string definitely does not exist wp-json'
   - name: Z Community (WP) Home page
     url: https://www.ibm.com/community/z
     icon: https://www.ibm.com/favicon.ico
