@@ -3,12 +3,45 @@ owner: zhujunyong # Your GitHub organization or username, where this repository 
 repo: upptime # The name of this repository
 
 sites:
-  - name: IBM
-    url: https://www.ibm.com
   - name: Advocacy Hub
     url: https://www.ibm.com/community/z/advocacy/
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+    icon: https://www.ibm.com/favicon.ico
+    # TODO get password of public
+  - name: Community Node-RED
+    url: https://www.ibm.com/community/z/api/node/community/public
+    icon: https://www.ibm.com/favicon.ico
+    headers: 
+      - "Authorization: Basic public:$SECRET_COMMUNITY_NODE_RED_PUBLIC"
+      - "Content-Type: text/plain"
+    __dangerous__body_down_if_text_missing: 9476eac0-4605-4c10-906d-01a95923ae0b
+  - name: Fans of Z (HL) Group page
+    url: https://community.ibm.com/community/user/ibmz-and-linuxone/groups/group-home?CommunityKey=b8b88f20-24c8-49f0-9021-4a8c6247a067
+    icon: https://www.ibm.com/favicon.ico
+    __dangerous__body_down_if_text_missing: "Login or register"
+  # TODO get username:password
+  - name: Middleware Aggregation API
+    url: https://www.ibm.com/community/z/api/cmt/getContentAggregation
+    icon: https://www.ibm.com/favicon.ico
+    method: POST
+    headers: 
+      - "Authorization: Basic $SECRET_MIDDLEWARE_AGGREGATION_API"
+      - "Content-Type: application/json"
+    body: '{ "tag": "IBM Z", "limit": 1 }'
+    __dangerous__body_down_if_text_missing: 'Blogs":[{' # need to confirm the content
+  - name: T90 (WP) Home page
+    url: https://www.ibm.com/community/z-and-cloud/
+    icon: https://www.ibm.com/favicon.ico
+    __dangerous__body_down_if_text_missing: 'Contact an expert'
+    __dangerous__body_down: 'wp-json'
+  - name: T90 (WP) Japanese home page
+    url: https://www.ibm.com/community/z-and-cloud/ja/
+    icon: https://www.ibm.com/favicon.ico
+    __dangerous__body_down_if_text_missing: 'Contact an expert'
+    __dangerous__body_down: 'wp-json'
+  - name: Z Community (WP) Home page
+    url: https://www.ibm.com/community/z
+    icon: https://www.ibm.com/favicon.ico
+    __dangerous__body_down_if_text_missing: 'Join the new IBM Z and LinuxONE Community'
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
