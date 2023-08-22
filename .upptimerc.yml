@@ -32,6 +32,7 @@ sites:
     body: '{ "tag": "IBM Z", "limit": 1 }'
     # __dangerous__body_down_if_text_missing: 'Blogs":[{' # need to confirm the content
     expectedStatusCodes:
+      - 400
       - 401
   - name: T90 (WP) Home page
     url: https://www.ibm.com/community/z-and-cloud/
