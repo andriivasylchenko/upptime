@@ -26,7 +26,6 @@ sites:
       - "Content-Type: application/json"
     body: '{ "tag": "IBM Z", "limit": 1 }'
     __dangerous__body_down_if_text_missing: '"blogs":[{'
-    # __dangerous__body_down_if_text_missing: '"blogs": [' # need to confirm the content
   - name: T90 (WP) Home page
     url: https://www.ibm.com/community/z-and-cloud/
     icon: https://www.ibm.com/favicon.ico
@@ -34,6 +33,7 @@ sites:
   - name: T90 (WP) Japanese home page
     url: https://www.ibm.com/community/z-and-cloud/ja/
     icon: https://www.ibm.com/favicon.ico
+    # __dangerous__body_down_if_text_missing: 'Contact an expert'
     __dangerous__body_down_if_text_missing: 'IBMエキスパートにコンタクト'
   - name: Z Community (WP) Home page
     url: https://www.ibm.com/community/z
