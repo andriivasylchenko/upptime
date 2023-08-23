@@ -1,7 +1,7 @@
 url: https://www.ibm.com/community/z/api/node/community/public
-status: down
-code: 401
-responseTime: 3158
-lastUpdated: 2023-08-22T23:06:25.384Z
+status: up
+code: 200
+responseTime: 414
+lastUpdated: 2023-08-23T01:38:31.831Z
 startTime: 2023-08-22T09:05:44.661Z
 generator: Upptime <https://github.com/upptime/upptime>
