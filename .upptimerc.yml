@@ -25,7 +25,7 @@ sites:
       - "Authorization: Basic $SECRET_MIDDLEWARE_AGGREGATION_API"
       - "Content-Type: application/json"
     body: '{ "tag": "IBM Z", "limit": 1 }'
-    __dangerous__body_down_if_text_missing: '"blogs":['
+    __dangerous__body_down_if_text_missing: '"blogs":[{'
     # __dangerous__body_down_if_text_missing: '"blogs": [' # need to confirm the content
   - name: T90 (WP) Home page
     url: https://www.ibm.com/community/z-and-cloud/
