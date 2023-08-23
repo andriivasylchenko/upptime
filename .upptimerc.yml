@@ -12,7 +12,7 @@ sites:
     icon: https://www.ibm.com/favicon.ico
     headers: 
       # base64 encoded: username:password
-      - "Authorization: Basic public:$SECRET_COMMUNITY_NODE_RED_PUBLIC"
+      - "Authorization: Basic $SECRET_COMMUNITY_NODE_RED"
       - "Content-Type: text/plain"
     __dangerous__body_down_if_text_missing: 9476eac0-4605-4c10-906d-01a95923ae0b
     # expectedStatusCodes:
