@@ -6,22 +6,17 @@ sites:
   - name: Advocacy Hub
     url: https://www.ibm.com/community/z/advocacy/
     icon: https://www.ibm.com/favicon.ico
-    # TODO get password of public
   - name: Community Node-RED
     url: https://www.ibm.com/community/z/api/node/community/public
     icon: https://www.ibm.com/favicon.ico
     headers: 
-      # base64 encoded: username:password
       - "Authorization: Basic $SECRET_COMMUNITY_NODE_RED"
       - "Content-Type: text/plain"
     __dangerous__body_down_if_text_missing: 9476eac0-4605-4c10-906d-01a95923ae0b
-    # expectedStatusCodes:
-    #   - 401
   - name: Fans of Z (HL) Group page
     url: https://community.ibm.com/community/user/ibmz-and-linuxone/groups/group-home?CommunityKey=b8b88f20-24c8-49f0-9021-4a8c6247a067
     icon: https://www.ibm.com/favicon.ico
     __dangerous__body_down_if_text_missing: "Login or register"
-  # TODO get username:password
   - name: Middleware Aggregation API
     url: https://www.ibm.com/community/z/api/cmt/getContentAggregation
     icon: https://www.ibm.com/favicon.ico
@@ -30,10 +25,7 @@ sites:
       - "Authorization: Basic $SECRET_MIDDLEWARE_AGGREGATION_API"
       - "Content-Type: application/json"
     body: '{ "tag": "IBM Z", "limit": 1 }'
-    __dangerous__body_down_if_text_missing: 'Blogs":[{' # need to confirm the content
-    # expectedStatusCodes:
-    #   - 400
-    #   - 401
+    __dangerous__body_down_if_text_missing: '"blogs": [\n            {' # need to confirm the content
   - name: T90 (WP) Home page
     url: https://www.ibm.com/community/z-and-cloud/
     icon: https://www.ibm.com/favicon.ico
