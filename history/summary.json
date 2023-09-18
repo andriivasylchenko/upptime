@@ -22,9 +22,9 @@
     "url": "https://www.ibm.com/community/z/api/node/community/public",
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "community-node-red",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 6677,
     "timeMonth": 5476,
     "timeYear": 5476,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-09-18": 0
+    }
   },
   {
     "name": "Fans of Z (HL) Group page",
