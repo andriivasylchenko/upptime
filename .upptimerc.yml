@@ -40,7 +40,12 @@ sites:
     icon: https://www.ibm.com/favicon.ico
     # __dangerous__body_down_if_text_missing: 'Join the new IBM Z and LinuxONE Community'
     __dangerous__body_down_if_text_missing: 'IBM Z and LinuxONE Community'
-
+  - name: IBM Z Advocacy Hub
+    url: https://community.ibm.com/zsystems/advocacy/
+    icon: https://www.ibm.com/favicon.ico
+  - name: Validated Open Source Software
+    url: https://community.ibm.com/zsystems/oss/
+    icon: https://www.ibm.com/favicon.ico
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
