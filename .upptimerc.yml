@@ -46,24 +46,36 @@ sites:
   - name: Validated Open Source Software
     url: https://community.ibm.com/zsystems/oss/
     icon: https://www.ibm.com/favicon.ico
-  - name: API - core - block id 2
-    url: https://community.ibm.com/zsystems/api/core/blocks/2
+  - name: API - core - blocks/6
+    url: https://community.ibm.com/zsystems/api/core/blocks/6
     headers:
+      - "Content-Type: application/json"
       - "accept: application/json"
       - "x-api-key: $CORE_PUBLIC_API_KEY"
-  - name: API - advocacy - opportunity id 1
-    url: https://community.ibm.com/zsystems/api/advocacy/opportunities/1
+  - name: API - core - forms/1
+    url: https://community.ibm.com/zsystems/api/core/forms/1
     headers:
+      - "Content-Type: application/json"
+      - "accept: application/json"
+      - "x-api-key: $CORE_PUBLIC_API_KEY"
+  - name: API - advocacy - opportunities/findAll
+    url: https://community.ibm.com/zsystems/api/advocacy/opportunities/findAll
+    method: POST
+    headers:
+      - "Content-Type: application/json"
       - "accept: application/json"
       - "x-api-key: $ADVOCACY_PUBLIC_API_KEY"
-  - name: API - agenda - event id 1
+    body: '{}'
+  - name: API - agenda - events/1
     url: https://community.ibm.com/zsystems/api/agenda/events/1
     headers:
+      - "Content-Type: application/json"
       - "accept: application/json"
       - "x-api-key: $AGENDA_PUBLIC_API_KEY"
   - name: API - oss json
     url: https://community.ibm.com/zsystems/api/oss/json
     headers:
+      - "Content-Type: application/json"
       - "accept: application/json"
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
