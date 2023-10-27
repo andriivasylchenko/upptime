@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/api/advocacy/opportunities/findAll
-status: down
-code: 411
-responseTime: 258
-lastUpdated: 2023-10-27T03:04:17.438Z
+status: up
+code: 200
+responseTime: 419
+lastUpdated: 2023-10-27T03:14:48.329Z
 startTime: 2023-10-25T04:09:47.812Z
 generator: Upptime <https://github.com/upptime/upptime>
