@@ -4,18 +4,20 @@
     "url": "https://www.ibm.com/community/z/advocacy/",
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "advocacy-hub",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1608,
-    "timeDay": 643,
-    "timeWeek": 1216,
-    "timeMonth": 1663,
-    "timeYear": 1608,
-    "dailyMinutesDown": {}
+    "time": 1602,
+    "timeDay": 825,
+    "timeWeek": 1197,
+    "timeMonth": 1644,
+    "timeYear": 1602,
+    "dailyMinutesDown": {
+      "2023-10-27": 0
+    }
   },
   {
     "name": "Community Node-RED",
