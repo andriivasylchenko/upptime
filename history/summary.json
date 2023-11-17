@@ -78,19 +78,19 @@
     "url": "https://www.ibm.com/community/z-and-cloud/",
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "t90-wp-home-page",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1755,
-    "timeDay": 6054,
-    "timeWeek": 2531,
-    "timeMonth": 2224,
-    "timeYear": 1755,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.44%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
+    "time": 1752,
+    "timeDay": 4505,
+    "timeWeek": 2406,
+    "timeMonth": 2203,
+    "timeYear": 1752,
     "dailyMinutesDown": {
-      "2023-11-17": 0
+      "2023-11-17": 8
     }
   },
   {
