@@ -25,19 +25,17 @@
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "community-node-red",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.43%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 5594,
     "timeDay": 13811,
     "timeWeek": 6801,
     "timeMonth": 5027,
     "timeYear": 5594,
-    "dailyMinutesDown": {
-      "2023-12-05": 8
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Fans of Z (HL) Group page",
