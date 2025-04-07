@@ -124,10 +124,10 @@
     "url": "https://community.ibm.com/zsystems/advocacy/",
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "ibm-z-advocacy-hub",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 272,
@@ -135,7 +135,9 @@
     "timeWeek": 196,
     "timeMonth": 249,
     "timeYear": 266,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-04-07": 1
+    }
   },
   {
     "name": "Validated Open Source Software",
