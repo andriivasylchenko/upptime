@@ -22,7 +22,7 @@ sites:
   - name: Z Community (WP) Home page
     url: https://community.ibm.com/zsystems/home/
     icon: https://www.ibm.com/favicon.ico
-    __dangerous__body_down_if_text_missing: 'cratos-lead-space'
+    __dangerous__body_down_if_text_missing: 'beamz-lead-space'
   - name: IBM Z Advocacy Hub
     url: https://community.ibm.com/zsystems/advocacy/
     icon: https://www.ibm.com/favicon.ico
