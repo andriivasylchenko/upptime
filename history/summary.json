@@ -57,18 +57,19 @@
     "url": "https://community.ibm.com/zsystems/home/",
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "z-community-wp-home-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 330,
-    "timeDay": 197,
+    "timeDay": 206,
     "timeWeek": 215,
-    "timeMonth": 251,
+    "timeMonth": 250,
     "timeYear": 292,
     "dailyMinutesDown": {
+      "2025-08-21": 0,
       "2025-05-01": 41
     }
   },
@@ -257,7 +258,7 @@
     "timeDay": 338,
     "timeWeek": 382,
     "timeMonth": 372,
-    "timeYear": 371,
+    "timeYear": 372,
     "dailyMinutesDown": {
       "2025-05-01": 40,
       "2025-04-28": 53,
@@ -299,7 +300,7 @@
     "timeDay": 311,
     "timeWeek": 313,
     "timeMonth": 340,
-    "timeYear": 459,
+    "timeYear": 460,
     "dailyMinutesDown": {
       "2025-05-01": 68,
       "2025-02-27": 18
