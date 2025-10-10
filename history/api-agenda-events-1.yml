@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/api/agenda/events/1
 status: down
-code: 502
-responseTime: 10424
-lastUpdated: 2025-10-10T07:26:55.182Z
+code: 500
+responseTime: 4287
+lastUpdated: 2025-10-10T23:02:09.100Z
 startTime: 2023-10-25T04:09:48.762Z
 generator: Upptime <https://github.com/upptime/upptime>
