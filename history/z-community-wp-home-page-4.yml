@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/home
-status: up
-code: 200
-responseTime: 255
-lastUpdated: 2025-10-09T23:01:46.652Z
+status: down
+code: 502
+responseTime: 950
+lastUpdated: 2025-10-10T07:28:59.815Z
 startTime: 2025-08-22T03:05:07.253Z
 generator: Upptime <https://github.com/upptime/upptime>
