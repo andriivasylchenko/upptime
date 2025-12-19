@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/api/beamz-agenda/events/findAll
-status: down
-code: 500
-responseTime: 307
-lastUpdated: 2025-12-18T23:30:04.006Z
+status: up
+code: 200
+responseTime: 952
+lastUpdated: 2025-12-19T01:10:17.367Z
 startTime: 2025-10-30T03:40:07.082Z
 generator: Upptime <https://github.com/upptime/upptime>
